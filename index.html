@@ -77,6 +77,25 @@
         <p>&copy; 2025 Sakshi's Practice Page</p>
     </footer>
 
+    <h2>SVG </h2>
+    <!-- Simple SVG Graphic -->
+    <svg width="200" height="200">
+        <circle cx="100" cy="100" r="80" stroke="green" stroke-width="4" fill="lightblue" />
+    </svg>
+
+    <h2>Canvas Example</h2>
+    <!-- Canvas Drawing -->
+    <canvas id="myCanvas" width="300" height="150" style="border:1px solid black;"></canvas>
+
+    <script>
+        const canvas = document.getElementById("myCanvas");
+        const ctx = canvas.getContext("2d");
+
+        ctx.fillStyle = "orange";
+        ctx.fillRect(100, 40, 100, 70);
+
+    </script>
+
 </body>
 
 </html>
